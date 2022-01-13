@@ -12,6 +12,7 @@ Reward: Integral squared error + constraints. Note that the constraint weights, 
 Environment (ThreeTankEnv class): A linear system. This can be substituted by the process of interest. 
 
 User Defined parameters:
+
 W1, W2, W3, W4 (double): Constraint weights for controller gain, time constant, CV, MV
 CONSTRAIN_ALPHA (double): A feasible constraint threshold to keep the tuning process safe.
 LR_A, LR_C, CONSTRAIN_LR (double): Learning rates for the policy, critic, constraint. 
