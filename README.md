@@ -26,11 +26,10 @@ self.setpoint: In the 'Worker class', defined by the user.
 
 
 Some references for asynchronous RL, constrained RL, etc.
-# RL with Constrained Filtering: O. Dogru, R. Chiplunkar, and B. Huang, “Reinforcement learning with constrained uncertain reward function through particle filtering,” IEEE Transactions
-on Industrial Electronics, 2021.
-# Robust Interface Tracking: O. Dogru, K. Velswamy, and B. Huang, “Actor-critic reinforcement learning and application in developing computer-vision-based interface tracking,”
-Engineering, 2021.
-# Constrained RL: O. Dogru, N. Wieczorek, K. Velswamy, F. Ibrahim, and B. Huang, “Online reinforcement learning for a continuous space system with experimental
-validation,” Journal of Process Control, vol. 104, pp. 86–100, 2021.
++ RL with Constrained Filtering: O. Dogru, R. Chiplunkar, and B. Huang, “Reinforcement learning with constrained uncertain reward function through particle filtering,” IEEE Transactions on Industrial Electronics, 2021.
++ Robust Interface Tracking: O. Dogru, K. Velswamy, and B. Huang, “Actor-critic reinforcement learning and application in developing computer-vision-based interface tracking,”
+Engineering, 2021. <br />
++ Constrained RL: O. Dogru, N. Wieczorek, K. Velswamy, F. Ibrahim, and B. Huang, “Online reinforcement learning for a continuous space system with experimental
+validation,” Journal of Process Control, vol. 104, pp. 86–100, 2021. <br />
 
 A reference for full RL (markovian states): https://github.com/stefanbo92/A3C-Continuous/blob/master/a3c.py
