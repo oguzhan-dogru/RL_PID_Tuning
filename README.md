@@ -24,6 +24,7 @@ UI (integer): Number of steps in an episode.<br />
 (KP, TAU, MV, CV)MIN, (KP, TAU, MV, CV)MAX (double): Lower and upper limits for the constraints.<br />
 self.setpoint (double list): In the 'Worker class'.
 
+Feel free to open issues or send pull requests if you find any bugs. 
 
 Some references for asynchronous RL, constrained RL, etc.
 + RL-based Tracking with Constrained Filtering: O. Dogru, R. Chiplunkar, and B. Huang, “Reinforcement learning with constrained uncertain reward function through particle filtering,” IEEE Transactions on Industrial Electronics, 2021.
@@ -33,3 +34,5 @@ Engineering, 2021. <br />
 validation,” Journal of Process Control, vol. 104, pp. 86–100, 2021. <br />
 
 A reference for full RL (markovian states): https://github.com/stefanbo92/A3C-Continuous/blob/master/a3c.py
+
+
