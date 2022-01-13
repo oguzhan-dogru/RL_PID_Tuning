@@ -5,9 +5,9 @@ Requirements.txt includes the packages to be used.
 
 This code tunes the PI controller parameters for a linear system by using the policy gradient while learning a baseline for stability. The environment is assumed to be nonlinear-setpoint-varying. 
 
-States (static/non-Markovian): A steady state operation point. It is also called as setpoint.
-Actions (sampled from a continuous policy): PI parameters. D parameter can also be added to the action space.
-Reward: Integral squared error + constraints. Note that the constraint weights, W can be tuned to improve safety. 
+States (static/non-Markovian): A steady state operation point. It is also called as setpoint.<br />
+Actions (sampled from a continuous policy): PI parameters. D parameter can also be added to the action space.<br />
+Reward: Integral squared error + constraints. Note that the constraint weights, W can be tuned to improve safety. <br />
 
 Environment (ThreeTankEnv class): A linear system. This can be substituted by the process of interest. 
 
