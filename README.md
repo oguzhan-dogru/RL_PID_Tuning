@@ -3,7 +3,7 @@ The source code for Reinforcement  Learning  Ap-proach to Autonomous PID Tuning.
 
 Requirements.txt includes the packages to be used.
 
-This contextual-bandit approach tunes the PI controller parameters for a linear system by using the policy gradient while learning a baseline for stability. The environment is assumed to be nonlinear-setpoint-varying. 
+This contextual-bandit approach (main.py) tunes the PI controller parameters for a linear system by using the policy gradient while learning a baseline for stability. The environment is assumed to be nonlinear-setpoint-varying. 
 
 States (static/non-Markovian): A steady state operation point. It is also called setpoint.<br />
 Actions (sampled from a continuous policy): PI parameters. D parameter can also be added to the action space.<br />
