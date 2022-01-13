@@ -1,4 +1,3 @@
-# RL_PID_Tuning
 The source code for Reinforcement  Learning  Ap-proach to Autonomous PID Tuning.  
 
 Requirements.txt includes the packages to be used.
