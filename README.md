@@ -4,14 +4,14 @@ The source code for Reinforcement  Learning  Ap-proach to Autonomous PID Tuning.
 Requirements.txt includes the packages to be used.
 
 This contextual-bandit approach (main.py) tunes the PI controller parameters for a linear system by using the policy gradient while learning a baseline for stability. The environment is assumed to be nonlinear-setpoint-varying. 
-
+# Environment Details
 States (static/non-Markovian): A steady state operation point. It is also called setpoint.<br />
 Actions (sampled from a continuous policy): PI parameters. D parameter can also be added to the action space.<br />
 Reward: Integral squared error + constraint violations. Note that the constraint weights, W can be tuned to improve safety. <br />
 
 Environment (ThreeTankEnv class): A linear setpoint-varying system. This can be substituted by the process of interest. 
 
-User Defined parameters:
+# User Defined parameters
 
 + W1, W2, W3, W4 (double): Constraint weights for controller gain, time constant, CV, MV.<br />
 + CONSTRAIN_ALPHA (double): A feasible constraint threshold to keep the tuning process safe.<br />
@@ -26,6 +26,7 @@ User Defined parameters:
 
 Feel free to open issues or send pull requests if you find any bugs. 
 
+# References 
 Some references for asynchronous RL, constrained RL, etc.
 + RL-based Tracking with Constrained Filtering: O. Dogru, R. Chiplunkar, and B. Huang, “Reinforcement learning with constrained uncertain reward function through particle filtering,” IEEE Transactions on Industrial Electronics, 2021.
 + Robust Interface Tracking: O. Dogru, K. Velswamy, and B. Huang, “Actor-critic reinforcement learning and application in developing computer-vision-based interface tracking,”
