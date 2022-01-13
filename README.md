@@ -13,16 +13,16 @@ Environment (ThreeTankEnv class): A linear system. This can be substituted by th
 
 User Defined parameters:
 
-W1, W2, W3, W4 (double): Constraint weights for controller gain, time constant, CV, MV.<br />
-CONSTRAIN_ALPHA (double): A feasible constraint threshold to keep the tuning process safe.<br />
-LR_A, LR_C, CONSTRAIN_LR (double): Learning rates for the policy, critic, constraint.<br /> 
-MAX_GLOBAL_EP (integer): Length of episodes.<br />
-ENTROPY_BETA (double): Exploration coefficient used in policy gradient.<br />
-A_BOUND (double list): PI parameter lower and upper bounds.<br />
-TRAIN_CTRL (boolean): If true, the agent updates the weights. If false, the agent loads the last policy and tunes the parameters.<br />
-UI (integer): Number of steps in an episode.<br />
-(KP, TAU, MV, CV)MIN, (KP, TAU, MV, CV)MAX (double): Lower and upper limits for the constraints.<br />
-self.setpoint (double list): In the 'Worker class'.
++ W1, W2, W3, W4 (double): Constraint weights for controller gain, time constant, CV, MV.<br />
++ CONSTRAIN_ALPHA (double): A feasible constraint threshold to keep the tuning process safe.<br />
++ LR_A, LR_C, CONSTRAIN_LR (double): Learning rates for the policy, critic, constraint.<br /> 
++ MAX_GLOBAL_EP (integer): Length of episodes.<br />
++ ENTROPY_BETA (double): Exploration coefficient used in policy gradient.<br />
++ A_BOUND (double list): PI parameter lower and upper bounds.<br />
++ TRAIN_CTRL (boolean): If true, the agent updates the weights. If false, the agent loads the last policy and tunes the parameters.<br />
++ UI (integer): Number of steps in an episode.<br />
++ (KP, TAU, MV, CV)MIN, (KP, TAU, MV, CV)MAX (double): Lower and upper limits for the constraints.<br />
++ self.setpoint (double list in the 'Worker class'): Setpoint list for the PI controller. The agent samples a random setpoint from this list.
 
 Feel free to open issues or send pull requests if you find any bugs. 
 
