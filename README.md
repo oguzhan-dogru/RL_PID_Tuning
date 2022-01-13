@@ -20,8 +20,8 @@ MAX_GLOBAL_EP (integer): Length of episodes.<br />
 ENTROPY_BETA (double): Exploration coefficient used in policy gradient.<br />
 A_BOUND (list): PI parameter lower and upper bounds.<br />
 TRAIN_CTRL (boolean): If true, the agent updates the weights. If false, the agent loads the last policy and tunes the parameters.<br />
-UI (integer): Number of steps in an episode.
-(KP, TAU, MV, CV)MIN, (KP, TAU, MV, CV)MAX (double): Lower and upper limits for the constraints
+UI (integer): Number of steps in an episode.<br />
+(KP, TAU, MV, CV)MIN, (KP, TAU, MV, CV)MAX (double): Lower and upper limits for the constraints.<br />
 self.setpoint: In the 'Worker class', defined by the user.
 
 
