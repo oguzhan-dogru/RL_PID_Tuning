@@ -18,7 +18,7 @@ CONSTRAIN_ALPHA (double): A feasible constraint threshold to keep the tuning pro
 LR_A, LR_C, CONSTRAIN_LR (double): Learning rates for the policy, critic, constraint.<br /> 
 MAX_GLOBAL_EP (integer): Length of episodes.<br />
 ENTROPY_BETA (double): Exploration coefficient used in policy gradient.<br />
-A_BOUND (list): PI lower and upper bounds.<br />
+A_BOUND (list): PI parameter lower and upper bounds.<br />
 TRAIN_CTRL (boolean): If true, the agent updates the weights. If false, the agent loads the last policy and tunes the parameters.<br />
 self.setpoint: In the 'Worker class', defined by the user.
 
